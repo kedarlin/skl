@@ -50,94 +50,133 @@ body {
     padding: 10px;
 } */
 
-.filters {
+.filters-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     margin-bottom: 20px;
 }
-.two{
-    display: inline-block;
-    background-color: antiquewhite;
-    border-radius: 10px;
-}
-
-.filter-group {
+.filter-park{
     display: flex;
-    padding: 20px;
     width: 50%;
     flex-direction: column;
     background-color: #f4f4f4;
     border-radius: 10px;
+    padding: 20px;
 }
-
-.filter-options {
-    display: inline-block;
+.filter-park-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
     gap: 10px;
-    margin-top: 5px;
-    padding: 5px;
 }
-
-.filter-btn {
+.filter-park-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     border: 1px #ccc solid;
     border-radius: 3px;
     cursor: pointer;
     background-color: #fff;
+    width: 100%;
 }
+.filter-park-btn.active{
+    background-color: #dc635a;
+    color: white;
 
-.filter-btn-1 {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+}
+.filter-date{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
     background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 25px;
+}
+.date-inputs{
+    width: 90%;
+}
+.filters-2 {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    background-color: #f4f4f4;
+}
+.filter-visit {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 5px;
 }
 .filter-btn-2 {
-    padding: 0;
-    border: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px #ccc solid;
     border-radius: 3px;
     cursor: pointer;
+    width: 100%;
+    height: 25px;
     background-color: #fff;
-    width: 80px;
-    height: 40px;
 }
 .filter-btn-2.active {
     background-color: #dc635a;
     color: white;
 }
-.filter-btn.active {
-    background-color: #dc635a;
-    color: white;
-}
 
-.input-group {
-    flex: 1;
-    display: inline-block;
+.input-group-2 {
+    display: flex;
     flex-direction: column;
+    margin-top: 16px;
+    padding: 10px;
+    width: 25%;
 }
 
-.input-group input {
+.input-group-2 input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-top: 5px;
+    height: 25px;
     display: inline-block;
 }
 
 .add-btn {
+    margin-top: 50px;
     background-color: #5c2121;
     color: white;
     padding: 10px 20px;
+    width: 100px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-left: auto;
-    align-self: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 45px;
 }
 
 .calendar {

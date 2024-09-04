@@ -33,47 +33,110 @@
       </div>
 
       <!-- Filter Section -->
-      <div class="filters">
-        <div class="filter-group">
-          <label class="one">Park</label>
-          <div class="filter-options">
-            <button class="filter-btn">College</button>
-            <button class="filter-btn active">General</button>
-            <button class="filter-btn">School</button>
-            <button class="filter-btn">Corporate</button>
+      <div class="filters-1">
+        <div class="filter-park">
+          <div class="filter-park-title">Park</div>
+          <div class="filter-park-options">
+            <button class="filter-park-btn">
+              <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px"
+              />
+              College
+            </button>
+            <button class="filter-park-btn active">
+              <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px; filter: brightness(0) invert(1)"
+              />
+              General
+            </button>
+            <button class="filter-park-btn">
+              <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px"
+              />
+              School
+            </button>
+            <button class="filter-park-btn">
+              <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px"
+              />
+              Corporate
+            </button>
           </div>
         </div>
-        <div class="filter-btn-1" style="width: 42.2%;">
+        <div class="filter-date">
           <div class="input-group">
-            <label for="datepicker">Date Picker</label><br/>
-            <input type="date" id="datepicker" value="03/09/2024" style="width: 50%;"/>
+            <div>Date Picker</div>
+            <input
+              type="date"
+              id="datepicker"
+              value="2018-07-22"
+              class="date-inputs"
+            />
           </div>
-
-          <div class="input-group" style="display: flex;">
-            <label for="pincode">Pincode</label>
-            <input type="text" id="pincode" />
+          <div class="input-group">
+            <div>Pincode</div>
+            <input
+              type="text"
+              id="pincode"
+              value="*_*_*_*_*_*_*"
+              class="date-inputs"
+            />
           </div>
         </div>
       </div>
-      <div class="filters">
-        <div class="filter-group" style="width: 100%;">
-          <label>Visit Group</label>
-          <div class="filter-options" style="display: flex;flex-direction: row; align-items: center;">
-            <button class="filter-btn-2">Lkg</button>
-            <button class="filter-btn-2">Ukg</button>
-            <button class="filter-btn-2 active">HSS</button>
-            <div class="input-group" style="margin-left: 30px;display: flex;flex-direction: column;">
-               Number of Students
-              <input type="text" id="students" value="234" />
+      <div class="filters-2">
+        <div class="filter-visit">
+          <div>Visit Group</div>
+          <div class="filter-options">
+            <div class="filter-btn-2">
+                <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px"
+              />
+              Lkg
             </div>
-            <div class="input-group" style="margin-left: 30px;display: flex;flex-direction: column;">
-              Number of Staffs
-              <input type="text" id="staffs" />
+            <div class="filter-btn-2">
+                <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px"
+              />
+              Ukg
             </div>
-            <button class="add-btn">Add</button>
+            <div class="filter-btn-2 active">
+                <img
+                src="bag-img.png"
+                alt="bag-img"
+                class="city-image"
+                style="width: 20px; filter: brightness(0) invert(1)"
+              />HSS
+            </div>
           </div>
         </div>
-
+        <div class="input-group-2" style="border-left: 1px solid #ccc;">
+          Number of Students
+          <input type="text" id="students" value="234" />
+        </div>
+        <div class="input-group-2">
+          Number of Staffs
+          <input type="text" id="staffs" />
+        </div>
+        <button class="add-btn">Add</button>
       </div>
 
       <!-- Calendar Section -->
@@ -165,5 +228,6 @@
         </table>
       </div>
     </div> -->
+    </div>
   </body>
 </html>
