@@ -124,6 +124,8 @@ body {
     width: 100%;
     gap: 10px;
     background-color: #f4f4f4;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 .filter-visit {
     display: flex;
@@ -131,7 +133,6 @@ body {
     flex-direction: column;
     background-color: #f4f4f4;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .filter-options {
