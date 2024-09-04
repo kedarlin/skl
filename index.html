@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <link>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Layout</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </link>
   <body>
     <div class="container">
       <!-- City Selection Section -->
@@ -42,7 +46,7 @@
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px"
+                style="width: 14px"
               />
               College
             </button>
@@ -51,7 +55,7 @@
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px; filter: brightness(0) invert(1)"
+                style="width: 14px; filter: brightness(0) invert(1)"
               />
               General
             </button>
@@ -60,7 +64,7 @@
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px"
+                style="width: 14px"
               />
               School
             </button>
@@ -69,13 +73,13 @@
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px"
+                style="width: 14px"
               />
               Corporate
             </button>
           </div>
         </div>
-        <div class="filter-date">
+        <div class="filter-date" style="border-left: #ccc 1px solid;">
           <div class="input-group">
             <div>Date Picker</div>
             <input
@@ -90,7 +94,7 @@
             <input
               type="text"
               id="pincode"
-              value="*_*_*_*_*_*_*"
+              value="- - - - - -"
               class="date-inputs"
             />
           </div>
@@ -100,134 +104,47 @@
         <div class="filter-visit">
           <div>Visit Group</div>
           <div class="filter-options">
-            <div class="filter-btn-2">
+            <button class="filter-btn-2">
               <img
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px"
+                style="width: 14px"
               />
               Lkg
-            </div>
-            <div class="filter-btn-2">
+            </button>
+            <button class="filter-btn-2">
               <img
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px"
+                style="width: 14px"
               />
               Ukg
-            </div>
-            <div class="filter-btn-2 active">
+          </button>
+            <button class="filter-btn-2 active">
               <img
                 src="bag-img.png"
                 alt="bag-img"
                 class="city-image"
-                style="width: 20px; filter: brightness(0) invert(1)"
+                style="width: 14px; filter: brightness(0) invert(1)"
               />HSS
-            </div>
+            </button>
           </div>
         </div>
         <div class="input-group-2" style="border-left: 1px solid #ccc">
           Number of Students
-          <input type="text" id="students" />
+          <input type="text" id="students" class="group-2-input"/>
         </div>
         <div class="input-group-2">
           Number of Staffs
-          <input type="text" id="staffs" />
+          <input type="text" id="staffs" class="group-2-input"/>
         </div>
         <button class="add-btn">Add</button>
       </div>
 
       <!-- Calendar Section -->
-      <div class="calendar">
-        <button class="calendar-nav">&lt;</button>
-        <div class="calendar-date active">03 Tue</div>
-        <div class="calendar-date">04 Wed</div>
-        <div class="calendar-date">05 Thu</div>
-        <div class="calendar-date">06 Fri</div>
-        <div class="calendar-date">07 Sat</div>
-        <div class="calendar-date">08 Sun</div>
-        <div class="calendar-date">09 Mon</div>
-        <div class="calendar-date">10 Tue</div>
-        <div class="calendar-date">11 Wed</div>
-        <div class="calendar-date">12 Thu</div>
-        <button class="calendar-nav">&gt;</button>
-      </div>
-
-      <!-- Data Table Section -->
-      <div class="data-table">
-        <table>
-          <thead>
-            <tr>
-              <th>SL.No</th>
-              <th>Category Description</th>
-              <th>Type</th>
-              <th>Qty</th>
-              <th>AP Qty</th>
-              <th>Food Qty</th>
-              <th>Food Price</th>
-              <th>Ticket Price</th>
-              <th>Food Amount</th>
-              <th>Ticket Amount</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>LKG to 4th Std Primary School</td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-              <td>
-                <p style="margin: 0; font-size: 12px; text-align: left">
-                  200&#8377;/Head
-                </p>
-                <input type="text" class="data-table-input" />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      
 
       <!-- Contacts Section -->
       <!-- <div class="contacts">
@@ -268,6 +185,94 @@
         </table>
       </div>
     </div> -->
+    </div>
+    <div class="calendar">
+      <button class="calendar-nav">&lt;</button>
+      <div class="calendar-date active">03 Tue</div>
+      <div class="calendar-date">04 Wed</div>
+      <div class="calendar-date">05 Thu</div>
+      <div class="calendar-date">06 Fri</div>
+      <div class="calendar-date">07 Sat</div>
+      <div class="calendar-date">08 Sun</div>
+      <div class="calendar-date">09 Mon</div>
+      <div class="calendar-date">10 Tue</div>
+      <div class="calendar-date">11 Wed</div>
+      <div class="calendar-date">12 Thu</div>
+      <button class="calendar-nav">&gt;</button>
+    </div>
+
+    <!-- Data Table Section -->
+    <div class="data-table">
+      <table>
+        <thead>
+          <tr>
+            <th>SL.No</th>
+            <th>Category Description</th>
+            <th>Type</th>
+            <th>Qty</th>
+            <th>AP Qty</th>
+            <th>Food Qty</th>
+            <th>Food Price</th>
+            <th>Ticket Price</th>
+            <th>Food Amount</th>
+            <th>Ticket Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>LKG to 4th Std Primary School</td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+            <td>
+              <input type="text" class="data-table-input" />
+              <p style="margin: 0; font-size: 12px; text-align: left; margin-top: 10px">
+                200&#8377;/Head
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
