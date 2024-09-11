@@ -59,12 +59,12 @@
 
       <div class="date">
         <div class="date-options">
-            Date Picker
-            <input type="date" class="date-input" />
+          Date Picker
+          <input type="date" class="date-input" />
         </div>
         <div class="date-options">
-            Date Picker
-            <input type="text" class="date-input" placeholder="- - - - - -" />
+          Date Picker
+          <input type="text" class="date-input" placeholder="- - - - - -" />
         </div>
       </div>
 
@@ -88,47 +88,106 @@
 
       <div class="staff">
         <div class="staff-options">
-            Date Picker
-            <input type="text" class="staff-input" />
+          Date Picker
+          <input type="text" class="staff-input" />
         </div>
         <div class="staff-options">
-            Date Picker
-            <input type="text" class="staff-input" placeholder="- - - - - -" />
+          Date Picker
+          <input type="text" class="staff-input" placeholder="- - - - - -" />
         </div>
       </div>
 
       <div class="departure">
-        <h3 style="margin: 0; color: #777777;">Departure</h3>
+        <h3 style="margin: 0; color: #777777">Departure</h3>
         <div class="departure-calendar">
-            <div class="departure-dates">
-                <div class="dep-date">
-                    <p style="margin: 2px; padding: 5px; font-size: 18px;">11</p>
-                    <p style="margin: 0;">WED</p>
-                </div>
-                <div class="dep-date">
-                    <p style="margin: 2px; padding: 5px; font-size: 16px;border-radius: 50%; background-color: #dc635a; color: #fff;">12</p>
-                    <p style="margin: 0;">THU</p>
-                </div>
-                <div class="dep-date">
-                    <p style="margin: 2px; padding: 5px; font-size: 16px;">13</p>
-                    <p style="margin: 0;">FRI</p>
-                </div>
-                <div class="dep-date">
-                    <p style="margin: 2px; padding: 5px; font-size: 16px;">14</p>
-                    <p style="margin: 0;">SAT</p>
-                </div>
-                <div class="dep-date">
-                    <p style="margin: 2px; padding: 5px; font-size: 16px;">15</p>
-                    <p style="margin: 0;">SUN</p>
-                </div>
+          <div class="departure-dates">
+            <div class="dep-date">
+              <p style="margin: 2px; padding: 5px; font-size: 18px">11</p>
+              <p style="margin: 0">WED</p>
             </div>
-            <div class="departure-month">
-                <!-- <input type="month" class="month-input" /> -->
-                2024
+            <div class="dep-date">
+              <p
+                style="
+                  margin: 2px;
+                  padding: 5px;
+                  font-size: 16px;
+                  border-radius: 50%;
+                  background-color: #dc635a;
+                  color: #fff;
+                "
+              >
+                12
+              </p>
+              <p style="margin: 0">THU</p>
             </div>
+            <div class="dep-date">
+              <p style="margin: 2px; padding: 5px; font-size: 16px">13</p>
+              <p style="margin: 0">FRI</p>
+            </div>
+            <div class="dep-date">
+              <p style="margin: 2px; padding: 5px; font-size: 16px">14</p>
+              <p style="margin: 0">SAT</p>
+            </div>
+            <div class="dep-date">
+              <p style="margin: 2px; padding: 5px; font-size: 16px">15</p>
+              <p style="margin: 0">SUN</p>
+            </div>
+          </div>
+          <div class="departure-month">
+            <select id="month-select" class="month-input">
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+              <option value="Apr">Apr</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="Jul">Jul</option>
+              <option value="Aug">Aug</option>
+              <option value="Sep" selected>Sep</option>
+              <option value="Oct">Oct</option>
+              <option value="Nov">Nov</option>
+              <option value="Dec">Dec</option>
+            </select>
+            2024
+          </div>
         </div>
       </div>
 
+      <!-- <div class="filters">
+        <div class="filter">Filters</div>
+        <div>Sort</div>
+        <button>Add</button>
+      </div> -->
+
+      <div class="cards">
+        <div class="card">
+            <div class="timing">
+                <span>22:15</span>
+                <span style="color: #777777; font-weight: 400;">- 08:10</span>
+                <span class="right">&#8377; 1,899</span>
+            </div>
+            <div class="seats">
+                <span>9h 22m</span>
+                <span style="color: #dc635a;">. 7 Seats(4 single)</span>
+                <span class="right">Onwards</span>
+            </div>
+            <div class="desc">
+                <span>Highline Transports</span>
+                <span><img
+                    src="bag-img.png"
+                    alt="bag-img"
+                    class="city-image"
+                    style="width: 14px; margin-left: 5px;"
+                  />
+                </span>
+                <span class="right">4.1</span>
+            </div>
+            <div class="sleeper">
+                <span>VE AC Sleeper (2+1)</span>
+                <span class="right" style="padding-right: 5px;">63</span>
+            </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
