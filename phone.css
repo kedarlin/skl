@@ -53,6 +53,7 @@
     padding: 5px;
     border-radius: 3px;
     border: solid 1px #ccc;
+    cursor: pointer;
 }
 .park-option.selected{
     background-color: #dc635a;
@@ -114,6 +115,7 @@
     padding: 5px 20px;
     border-radius: 3px;
     border: solid 1px #ccc;
+    cursor: pointer;
 }
 .visit-option.selected{
     background-color: #dc635a;
@@ -158,6 +160,7 @@
     font-size: 12px;
     padding: 5px 10px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .departure{
@@ -180,6 +183,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .departure-month{
     display: flex;
@@ -232,17 +236,23 @@
 .filters{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 10px;
+    /* justify-content: space-around; */
+    gap: 10px;
     align-items: center;
+    font-size: 12px;
 }
 .filter-option{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
-    padding: 5px;
+    padding: 0 5px;
     border: solid 1px #ccc;
+    border-radius: 5px;
 }
 .filter-input{
-    width: 10%;
+    all: unset;
+    width: 45px;
+    padding: 5px;
 }
