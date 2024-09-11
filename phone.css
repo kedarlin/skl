@@ -1,0 +1,149 @@
+.container{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.city-selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.city-option{
+    padding: 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.city-option .selected{
+    background-color: #5c2121;
+    color: white;
+}
+.city-image{
+    width: 20px;
+}
+.park{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+}
+.park-options{
+    display: flex;
+    flex-direction: row;;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.park-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+}
+.park-option.selected{
+    background-color: #dc635a;
+    color: white;
+}
+.park-image{
+    width: 14px;
+}
+.park-image.selected{
+    filter: brightness(0) invert(1)
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+.date-options{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 3px;
+    padding-right: 20px;
+}
+.date-input{
+    all: unset;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.visit{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+}
+.visit-options{
+    display: flex;
+    flex-direction: row;;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.visit-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+}
+.visit-option.selected{
+    background-color: #dc635a;
+    color: white;
+}
+.visit-image{
+    width: 14px;
+}
+.visit-image.selected{
+    filter: brightness(0) invert(1)
+}
+
+.staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+.staff-options{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 3px;
+    padding-right: 20px;
+}
+.staff-input{
+    all: unset;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+}
