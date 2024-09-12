@@ -213,31 +213,31 @@
     padding: 10px;
     border-radius: 10px;
     background-color: #f4f4f4;
+    gap: 10px;
 }
-.timing, .seats, .desc, .sleeper{
-    font-size: 14px;
+.card-head{
+    text-align: center;
     font-weight: 550;
+    margin: 10px;
+}
+.card-row{
     display: flex;
     flex-direction: row;
-}
-.seats, .sleeper{
-    font-size: 10px;
-    font-weight: 400;
-    color: #777777;
-}
-.right{
-    margin-left: auto;
-    margin-right: 10px;
-}
-.stop{
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 3px;
-    padding: 0 5px;
-    background-color: #dcf1e2;
-    width: fit-content;
+    gap: 10px;
 }
-
+.card-input-box{
+    display: flex;
+    flex-direction: column;
+}
+.card-input{
+    all: unset;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 0;
+    border-radius: 3px;
+}
 .filters{
     display: flex;
     flex-direction: row;
