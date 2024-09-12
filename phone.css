@@ -277,7 +277,7 @@
 }
 
 .dropdown-menu {
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 90%;
     left: 10%;
