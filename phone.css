@@ -22,7 +22,7 @@
     align-items: center;
     gap: 2px;
 }
-.city-option .selected{
+.city-option.selected{
     background-color: #5c2121;
     color: white;
 }
