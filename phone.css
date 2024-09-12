@@ -205,7 +205,7 @@
 .cards{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding-top: 10px;
     gap: 5px;
 }
 .card{
