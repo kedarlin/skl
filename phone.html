@@ -159,119 +159,176 @@
       </div>
 
       <div class="filters">
-        <div class="filter-option">
+        <div class="filter-option" onclick="toggleDropdown()">
           <i class="material-icons">tune</i>
-          Price Category
+          <span>Price Category</span>
+        </div>
+        <div class="dropdown-menu" id="dropdownMenu">
+          <div class="dropdown-item">Low</div>
+          <div class="dropdown-item">Medium</div>
+          <div class="dropdown-item">High</div>
         </div>
         <div class="filter-option">
           <input type="text" class="filter-input" />
         </div>
-        <div class="button" style="margin: 0; border: none;">
-            Apply
-        </div>
+        <div class="button" style="margin: 0; border: none">Apply</div>
       </div>
 
       <div class="cards">
         <div class="card">
-          <div class="card-head">
-            1&emsp; LKG to 4th Primary School
+          <div class="card-head">1&emsp; LKG to 4th Primary School</div>
+          <div class="card-row">
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Type</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">AP Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
           </div>
           <div class="card-row">
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Type</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Ticket Price</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Price</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">AP Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Amt</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Ticket Amt</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Ticket Price</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Price</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Amt</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Ticket Amt</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
           </div>
         </div>
 
         <div class="card">
-          <div class="card-head">
-            2&emsp; LKG to 4th Primary School
+          <div class="card-head">2&emsp; LKG to 4th Primary School</div>
+          <div class="card-row">
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Type</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">AP Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
+            <div class="card-input-box">
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Qty</p>
+              <input type="text" class="card-input" />
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
+            </div>
           </div>
           <div class="card-row">
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Type</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Ticket Price</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Price</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">AP Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Food Amt</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
             <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Qty</p>
+              <p style="font-weight: 600; margin: 0 0 5px 0">Ticket Amt</p>
               <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Ticket Price</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Price</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Food Amt</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
-            </div>
-            <div class="card-input-box">
-              <p style="font-weight: 600; margin: 0 0 5px 0;">Ticket Amt</p>
-              <input type="text" class="card-input" />
-              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777;">200&#8377;/head</p>
+              <p style="margin: 2px 0 0 0; font-size: 10px; color: #777777">
+                200&#8377;/head
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script>
+    function toggleDropdown() {
+      const dropdown = document.getElementById("dropdownMenu");
+      dropdown.style.display =
+        dropdown.style.display === "block" ? "none" : "block";
+    }
+
+    // Handle clicking outside the dropdown to close it
+    window.onclick = function (event) {
+      if (!event.target.closest(".filter-option")) {
+        const dropdown = document.getElementById("dropdownMenu");
+        if (dropdown && dropdown.style.display === "block") {
+          dropdown.style.display = "none";
+        }
+      }
+    };
+
+    // Handle item selection to update the display text
+    document.querySelectorAll(".dropdown-item").forEach((item) => {
+      item.addEventListener("click", function () {
+        document.querySelector(".filter-option span").textContent =
+          this.textContent;
+        document.getElementById("dropdownMenu").style.display = "none";
+      });
+    });
+  </script>
 </html>

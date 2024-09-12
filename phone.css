@@ -254,8 +254,9 @@
     font-size: 12px;
     background-color: #f4f4f4;
     border-radius: 10px;
+    position: relative;
 }
-.filter-option{
+.filter-option {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -264,11 +265,35 @@
     border: solid 1px #ccc;
     border-radius: 5px;
     width: 100%;
+    background-color: #fff;
+    cursor: pointer;
 }
-.filter-input{
+
+.filter-input {
     all: unset;
-    width: 45px;
     padding: 5px;
     background-color: #fff;
     width: 100%;
+}
+
+.dropdown-menu {
+    /* display: none; */
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
 }
