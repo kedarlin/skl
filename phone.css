@@ -173,7 +173,8 @@
 .departure-calendar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10%;
     align-items: center;
     margin-top: 5px;
 }
